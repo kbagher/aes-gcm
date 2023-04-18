@@ -10,9 +10,9 @@ The app allows users to encrypt and decrypt text using a user-provided key. The 
 
 To use the app, enter a key with any length, a salt of exactly 12 characters, and the input text that you want to encrypt or decrypt. You can choose to output the encrypted or decrypted text in either hexadecimal or base64 format. The app runs entirely on the client side, and no data is stored on the server.
 
-## Live Demo
+## Live Demo (Hosted on Github Pages)
 
-You can try the web app without cloning the repository or downloading the source code on the following link:
+You can use the web app without cloning the repository or downloading the source code on the following link:
 
 [**AES-GCM-256 Encryption/Decryption**](https://kbagher.github.io/aes-gcm/)
 
