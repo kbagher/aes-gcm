@@ -6,7 +6,7 @@ This repository contains a simple web app that demonstrates the use of AES-GCM-2
 
 AES-GCM (Advanced Encryption Standard - Galois/Counter Mode) is a symmetric authenticated encryption algorithm that provides both confidentiality and integrity. This web app uses a 256-bit key size, which offers a high level of security.
 
-The app allows users to encrypt and decrypt text using a user-provided key. The key derivation process uses the PBKDF2 function with a user-provided Salt, 100,000 iterations, and SHA-256 hashing. The Salt must be exactly 12 characters long.
+The app allows users to encrypt and decrypt text using a user-provided key. The key derivation process uses the PBKDF2 function with a user-provided Salt, iterations, and SHA-256 hashing. The Salt must be exactly 12 characters long.
 
 To use the app, enter a key with any length, a salt of exactly 12 characters, and the input text that you want to encrypt or decrypt. You can choose to output the encrypted or decrypted text in either hexadecimal or base64 format. The app runs entirely on the client side, and no data is stored on the server.
 
