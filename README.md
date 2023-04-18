@@ -58,7 +58,7 @@ Please refer to the "Security Considerations" section above for more information
 The app derives a 256-bit key from the user's input using the PBKDF2 (Password-Based Key Derivation Function 2) algorithm with the following parameters:
 
 -   Salt: Salt input is converted into a 12-bytes and represented as a `Uint8Array`
--   Iterations: 1 - 100,000
+-   Iterations: Minimum 1,000
 -   Hashing algorithm: SHA-256
 
 This key derivation process ensures that the derived key has a fixed length of 256 bits, regardless of the input length.
