@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AES-GCM 256</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="libs/popper.min.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1 class="my-4">AES-GCM 256</h1>
+    <div class="mb-3">
+        <label for="key-input" class="form-label">Key</label>
+        <input type="text" class="form-control" id="key-input" placeholder="Master key with any length">
+    </div>
+    <div class="row mb-3">
+        <div class="col">
+            <label for="iv-input" class="form-label">Salt <span id="salt-counter">(0/12)</span></label>
+            <input type="text" class="form-control" id="iv-input" placeholder="Exactly 12 characters" maxlength="12">
+        </div>
+        <div class="col">
+            <label for="iterations-input" class="form-label">Iterations</label>
+            <input type="number" class="form-control" id="iterations-input" min="1000"
+                   placeholder="Minumum 1,000">
+        </div>
+    </div>
+    <div class="mb-3">
+        <label for="text-input" class="form-label">Input</label>
+        <textarea class="form-control" id="text-input"></textarea>
+    </div>
+    <div class="mb-3">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="format" id="hex-format" value="hex" checked>
+            <label class="form-check-label" for="hex-format">Hex</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="format" id="base64-format" value="base64">
+            <label class="form-check-label" for="base64-format">Base64</label>
+        </div>
+    </div>
+    <div class="mb-3">
+        <button class="btn btn-primary" onclick="encrypt()">Encrypt</button>
+        <button class="btn btn-secondary" onclick="decrypt()">Decrypt</button>
+    </div>
+    <div class="mb-3">
+        <label for="output" class="form-label">Output</label>
+        <textarea class="form-control" id="output" readonly></textarea>
+    </div>
+    <div class="mb-3">
+        <button class="btn btn-primary" onclick="copyResult()">Copy Result</button>
+    </div>
+</div>
+
+<script src="js/app.js"></script>
+<div class="container mt-4">
+    <p class="text-center text-muted small">
+        This script runs entirely on the client side, and no data is stored on the server. Please note that GitHub Pages
+        tracks visitors' IP addresses for security reasons. More information can be found <a
+            href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection"
+            target="_blank">here</a>.
+        Code available on <a href="https://github.com/kbagher/aes-gcm" target="_blank">GitHub</a>.
+    </p>
+</div>
+</body>
+</html>
+
+
+
+
