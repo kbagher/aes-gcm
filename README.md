@@ -118,7 +118,7 @@ To use this web app:
 
 ## Customization
 
-You can modify the code to change the encryption algorithm, key size, or other parameters by editing the JavaScript code within the `<script>` tag in the `index.html` file.
+You can modify the code to change the encryption algorithm, key size, or other parameters by editing the JavaScript code in `js/app.js` file.
 
 For example, you can change the key size from 256 bits to 128 bits by updating the following line:
 
