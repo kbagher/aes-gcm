@@ -1,3 +1,7 @@
+
+<img width="500" alt="demo" src="https://user-images.githubusercontent.com/772042/233534064-ed63f200-18b4-4261-9793-033447137652.png">
+
+
 # AES-GCM-256 Encryption/Decryption Web App
 
 This repository contains a simple web app that demonstrates the use of AES-GCM-256 encryption and decryption. The app is built using HTML, CSS (Bootstrap), and JavaScript. The cryptographic operations are performed using the Web Cryptography API available in modern web browsers. The app supports both hex and base64 formats for encrypted data.
