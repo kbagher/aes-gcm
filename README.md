@@ -1,8 +1,6 @@
-
 <p align="center">
-  <img width="450" alt="Website screenshot" src="https://user-images.githubusercontent.com/772042/233534688-cb5dac03-9b04-4170-8607-9aed9228c19e.png">
+<img width="450" alt="Website screenshot" src="https://user-images.githubusercontent.com/772042/233535953-07413691-1907-4e6f-ad91-a6de06eac9cb.gif">
 </p>
-
 
 # AES-GCM-256 Encryption/Decryption Web App
 
