@@ -1,7 +1,9 @@
 <p align="center">
+<a href="https://kbagher.github.io/aes-gcm"><b>>>> Click hete to try the app on GitHub Pages <<< </b></a>
+</p>
+<p align="center">
 <img width="450" alt="Website screenshot" src="https://user-images.githubusercontent.com/772042/233535953-07413691-1907-4e6f-ad91-a6de06eac9cb.gif">
 </p>
-
 # AES-GCM-256 Encryption/Decryption Web App
 
 This repository contains a simple web app that demonstrates the use of AES-GCM-256 encryption and decryption. The app is built using HTML, CSS (Bootstrap), and JavaScript. The cryptographic operations are performed using the Web Cryptography API available in modern web browsers. The app supports both hex and base64 formats for encrypted data.
